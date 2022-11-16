@@ -1,0 +1,24 @@
+
+/*! ************768PX***************/
+    
+/*!INFO*/
+@media screen and (min-width:768px) {
+.container{
+    max-width: 770px;
+}
+.card{
+    margin: 10px;
+}
+.row .main-cards{
+    display: flex;
+    flex-direction: row;
+}
+.main-col{
+    flex-direction: row;
+}
+.info-card .card i:first-of-type {
+    font-size: 65px;
+}
+
+}
+/*! ***************1200PX***********/

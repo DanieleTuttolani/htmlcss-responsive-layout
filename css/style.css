@@ -18,6 +18,7 @@
 }
 .row{
     flex-direction: column;
+    align-items: center;
 }
 .mtm{
     margin-top: 25px;
@@ -30,6 +31,9 @@
 }
 .ali{
 text-align: center;
+}
+img{
+    max-width: 100%;
 }
 /*! BODY*/
 body{
@@ -72,18 +76,19 @@ main{
 }
 .card{
     border: 2px dashed red;
-    border-radius: 20px;
+    border-radius: 50px;
     margin-bottom: 15px;
     padding: 25px 25px 0 25px;
+    max-width: 300px;
 }
-.info-cards .card{
+.info-cards  .card{
     background-color: #b5ddff;
 }
 .card h3:first-of-type{
     color: #0084fd;
     font-size: 25px;
 }
-.card i:first-of-type{
+.info-cards .card i:first-of-type{
     color: #0084fd;
     font-size: 90px;
 }
@@ -101,17 +106,58 @@ main{
     bottom: -5px;
     max-width: 70%;
 }
+.main-cards{
+    flex-direction: column;
+}
+.main-col{
+    flex-direction: column;
+}
+
 /* !PRESENTATION*/
 .presentation{
     padding: 25px;
 }
 .pres-body>*{
     display: flex;
+    justify-content: center;
+}
+.pres-top img{
+    width: 100%;
+}
+.pres-info h2{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+.pres-info{
     flex-direction: column;
+    padding: 40px;
+}
+.pres-info p{
+    color: white;
+    font-size: 17px;
 }
  .pres-bot .card{
     background-color: #fff;
 }
+.pres-bot h2,p{
+    text-align: center;
+}
+.pres-arrow{
+    height: 50px;
+    width: 50px;
+    background-color: #9792e4;
+    border-radius: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 25px;
+}
+.pres-arrow i{
+    position: relative;
+    top: 15px;
+    font-size: 20px;
+}
+
 /*!TESTIMONIALS */
 .test-title{
     height: 200px;
