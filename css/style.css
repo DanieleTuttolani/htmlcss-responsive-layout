@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:'PT Sans', sans-serif;;
 }
 /*!utilità*/
 .container{
@@ -21,8 +22,14 @@
 .mtm{
     margin-top: 25px;
 }
+.mbs{
+    margin-bottom: 15px;
+}
 .alt-bgc{
     background-color: #9792e4;
+}
+.ali{
+text-align: center;
 }
 /*! BODY*/
 body{
@@ -34,6 +41,8 @@ header{
     top: 0;
     right: 0;
     left: 0;
+    background-color: #0084fd;
+    z-index: 1;
 }
 /*!NAV*/
 .nav-container{
@@ -43,6 +52,15 @@ header{
 .nav-container > *{
     border: 2px dashed red;
     min-width: 100px;
+}
+.nav-container .nav-logo{
+    align-items: center;
+}
+.nav-link{
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
 }
 /*!MAIN*/
 main{
@@ -54,12 +72,35 @@ main{
 }
 .card{
     border: 2px dashed red;
-    height: 250px;
     border-radius: 20px;
     margin-bottom: 15px;
+    padding: 25px 25px 0 25px;
 }
-
-
+.info-cards .card{
+    background-color: #b5ddff;
+}
+.card h3:first-of-type{
+    color: #0084fd;
+    font-size: 25px;
+}
+.card i:first-of-type{
+    color: #0084fd;
+    font-size: 90px;
+}
+.apple-btn{
+    padding: 10px 60px;
+    color: white;
+    background-color:#0084fd ;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+}
+.txt-wrapper img{
+    position: relative;
+    left: 50px;
+    bottom: -5px;
+    max-width: 70%;
+}
 /* !PRESENTATION*/
 .presentation{
     padding: 25px;
