@@ -166,18 +166,60 @@ main{
 
 /*!TESTIMONIALS */
 .test-title{
-    height: 200px;
     margin-bottom: 25px;
+}
+.test-title .title{
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+}
+.test-title .introduction{
+    color: #9792e4;
+    font-size: 40px;
+    text-align: center;
+}
+.test-title .description{
+    font-size: 20px;
+    padding: 35px;
 }
 .test-title>*{
     border: 1px solid blue;
-    height: calc(100% / 3);
+    min-height: calc(100% / 3);
 }
 
+.test-faces .card{
+    background-color: #9792e4;
+}
+.faces-container{
+    flex-direction: column;
+}
+
+.face{
+    min-width: 250px;
+    min-height: 250px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+}
+.face-nat{
+    background-image: url(../img/testimonial1.jpg);    
+}
+.face-almeda{
+    background-image: url(../img/testimonial2.jpg);
+}
+.face-roberts{
+    background-image: url(../img/testimonial3.jpg);
+}
+
+   
 .face,
 .face-info{
     height: 50%;
     border: 1px solid gray;
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
 }
 /*!BENEFITS*/
 
