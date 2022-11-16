@@ -35,13 +35,41 @@ main{
     flex-direction: column;
     padding: 25px;
 }
-.info-cards .card{
-    min-width: 100px;
+.card{
     border: 2px dashed red;
-    min-height: 250px;
+    height: 250px;
     border-radius: 20px;
     margin-bottom: 15px;
 }
 
 
-/* PRESENTATION*/
+/* !PRESENTATION*/
+.presentation{
+    background-color: #9792e4;
+    padding: 25px;
+}
+.pres-body>*{
+    display: flex;
+    flex-direction: column;
+}
+ .pres-bot .card{
+    background-color: #fff;
+}
+/*!TESTIMONIALS */
+.test-title{
+    height: 200px;
+    margin-bottom: 25px;
+}
+.test-title>*{
+    border: 1px solid blue;
+    height: calc(100% / 3);
+}
+
+.test-faces .row{
+    flex-direction: column;
+}
+.face,
+.face-info{
+    height: 50%;
+    border: 1px solid gray;
+}
