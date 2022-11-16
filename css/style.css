@@ -21,6 +21,9 @@
 .mtm{
     margin-top: 25px;
 }
+.alt-bgc{
+    background-color: #9792e4;
+}
 /*! BODY*/
 body{
     padding-top: 100px;
@@ -59,7 +62,6 @@ main{
 
 /* !PRESENTATION*/
 .presentation{
-    background-color: #9792e4;
     padding: 25px;
 }
 .pres-body>*{
@@ -85,9 +87,6 @@ main{
     border: 1px solid gray;
 }
 /*!BENEFITS*/
-.benefits-bgc{
-    background-color: #9792e4;
-}
 
 .bene-title{
     height: 100px;
@@ -98,4 +97,26 @@ main{
 
 .bene-body{
     margin-top: 20px;
+}
+/*!ABOUT US*/
+.about-body{
+    min-height: 400px;
+}
+.about-info,
+.about-img{
+    border: 1px solid red;
+    min-height: 200px;
+}
+/*!PROMOTION*/
+.promo-body{
+    min-height: 200px;
+    border: 1px solid blue;
+}
+/*!FOOTER*/
+footer{
+    background-color: rgb(63, 63, 63);
+}
+.foot-body{
+    min-height: 200px;
+    border: 2px solid wheat;
 }
