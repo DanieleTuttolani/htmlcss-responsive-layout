@@ -229,7 +229,18 @@ main{
 .bene-body .card{
     background-color: #fff;
 }
+.bene-body .card h2,h3{
+    color: #9792e4;
 
+}
+.btn{
+    padding: 10px 30px;
+    color: white;
+    background-color: #9792e4;
+    border-radius: 20px;
+    font-size: 15px;
+    border: none;
+}
 .bene-body{
     margin-top: 20px;
 }
@@ -241,11 +252,33 @@ main{
 .about-img{
     border: 1px solid red;
     min-height: 200px;
+    line-height: 25px;
+    padding: 20px;
+}
+.face-about{
+    background-image: url(../img/about.jpg);
+}
+.img-info{
+    padding: 20px;
+    font-size: 30px;
+    line-height: 35px;
 }
 /*!PROMOTION*/
 .promo-body{
     min-height: 200px;
     border: 1px solid blue;
+}
+.promo-body h5{
+    text-align: center;
+}
+.alt-btn{
+    background-color: #fff;
+    border: none;
+    border-radius: 20px;
+    color: #9792e4;
+    padding: 15px 25px;
+    font-size: 18px;
+    margin-left: 35%;
 }
 /*!FOOTER*/
 footer{
