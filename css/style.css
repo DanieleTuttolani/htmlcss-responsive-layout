@@ -15,8 +15,23 @@
 .flex{
     display: flex;
 }
+.row{
+    flex-direction: column;
+}
+.mtm{
+    margin-top: 25px;
+}
 /*! BODY*/
+body{
+    padding-top: 100px;
+}
 /*!HEADER*/
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
 /*!NAV*/
 .nav-container{
     min-height: 100px;
@@ -32,7 +47,6 @@ main{
 }
 .info-cards .row{
     flex-wrap: wrap;
-    flex-direction: column;
     padding: 25px;
 }
 .card{
@@ -65,11 +79,23 @@ main{
     height: calc(100% / 3);
 }
 
-.test-faces .row{
-    flex-direction: column;
-}
 .face,
 .face-info{
     height: 50%;
     border: 1px solid gray;
+}
+/*!BENEFITS*/
+.benefits-bgc{
+    background-color: #9792e4;
+}
+
+.bene-title{
+    height: 100px;
+}
+.bene-body .card{
+    background-color: #fff;
+}
+
+.bene-body{
+    margin-top: 20px;
 }
