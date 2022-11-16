@@ -117,6 +117,12 @@ main{
 .presentation{
     padding: 25px;
 }
+.presentation .card{
+    max-width: 100%;
+}
+.pres-body{
+    flex-direction: column;
+}
 .pres-body>*{
     display: flex;
     justify-content: center;
