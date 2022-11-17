@@ -20,5 +20,25 @@
     font-size: 65px;
 }
 
+
+/*!testimonial*/
+
+.test-faces .row{
+    flex-direction: row;
+}
+.test-faces .card{
+    max-width: 100%;
+    display: flex;
+}
+.card .face-info{
+    align-self: center;
+    margin: 15px;
+}
+
+
+
+
+
+
 }
 /*! ***************1200PX***********/

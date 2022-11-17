@@ -226,21 +226,32 @@ main{
 .bene-title{
     height: 100px;
 }
+.bene-title h2{
+   color: #fff;
+   font-size: 40px;
+}
 .bene-body .card{
     background-color: #fff;
 }
 .bene-body .card h2,h3{
     color: #9792e4;
+    font-size: 30px;
+    margin: 10px 0;
 
 }
+.bene-body p,.btn{
+    margin: 10px 0;
+    text-align: left;
+}
 .btn{
-    padding: 10px 30px;
+    padding: 12px 40px;
     color: white;
     background-color: #9792e4;
     border-radius: 20px;
     font-size: 15px;
     border: none;
 }
+
 .bene-body{
     margin-top: 20px;
 }
@@ -255,6 +266,12 @@ main{
     line-height: 25px;
     padding: 20px;
 }
+.about-info h2{
+    color: #9792e4;
+    font-size: 45px;
+    margin: 25px 0;
+
+}
 .face-about{
     background-image: url(../img/about.jpg);
 }
@@ -267,6 +284,8 @@ main{
 .promo-body{
     min-height: 200px;
     border: 1px solid blue;
+    text-align: center;
+    color: white;
 }
 .promo-body h5{
     text-align: center;
@@ -276,9 +295,14 @@ main{
     border: none;
     border-radius: 20px;
     color: #9792e4;
-    padding: 15px 25px;
+    padding: 20px 60px;
     font-size: 18px;
-    margin-left: 35%;
+    margin: 20px 0;
+}
+.free-jumbo{
+    color: gold;
+    font-size: 55px;
+    margin: 20px 0;
 }
 /*!FOOTER*/
 footer{
@@ -287,4 +311,14 @@ footer{
 .foot-body{
     min-height: 200px;
     border: 2px solid wheat;
+  justify-content: space-around;
+    flex-direction: column;
+}
+footer p {
+    font-size: 12px;
+    color: white;
+}
+footer a{
+    color: #9792e4;
+    font-size: 15px;
 }
