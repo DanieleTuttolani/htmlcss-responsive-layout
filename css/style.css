@@ -10,9 +10,6 @@
     margin: 0 auto;
     padding: 10px 25px;
 }
-.bordo{
-    border: 2px solid black;
-}
 .flex{
     display: flex;
 }
@@ -49,21 +46,31 @@ header{
 }
 /*!NAV*/
 .nav-container{
-    min-height: 100px;
     justify-content: space-between;
 }
 .nav-container > *{
-    border: 2px dashed red;
     min-width: 100px;
 }
 .nav-container .nav-logo{
     align-items: center;
 }
 .nav-link{
-    color: white;
-    justify-content: center;
     align-items: center;
+}
+.nav-link i{
+    color: white;
     font-size: 30px;
+}
+ ul{
+    text-decoration: none;
+    color: #fff;
+    list-style-type: none;
+    display: none;
+}
+.nav-link li{
+    padding: 10px;
+    font-size: 19px;
+    color: #fff;
 }
 /*!MAIN*/
 main{
@@ -74,7 +81,6 @@ main{
     padding: 25px;
 }
 .card{
-    border: 2px dashed red;
     border-radius: 50px;
     margin-bottom: 15px;
     padding: 25px 25px 0 25px;
@@ -192,7 +198,6 @@ main{
     padding: 35px;
 }
 .test-title>*{
-    border: 1px solid blue;
     min-height: calc(100% / 3);
 }
 
@@ -225,7 +230,6 @@ main{
 .face,
 .face-info{
     height: 50%;
-    border: 1px solid gray;
     color: white;
     font-size: 20px;
     line-height: 30px;
@@ -271,7 +275,6 @@ main{
 }
 .about-info,
 .about-img{
-    border: 1px solid red;
     line-height: 25px;
     padding: 20px;
 }
@@ -283,6 +286,7 @@ main{
 }
 .face-about{
     background-image: url(../img/about.jpg);
+    width: 250px;
 }
 .img-info{
     padding: 20px;
@@ -292,7 +296,6 @@ main{
 /*!PROMOTION*/
 .promo-body{
     min-height: 200px;
-    border: 1px solid blue;
     text-align: center;
     color: white;
 }
@@ -319,7 +322,6 @@ footer{
 }
 .foot-body{
     min-height: 200px;
-    border: 2px solid wheat;
   justify-content: space-around;
     flex-direction: column;
 }

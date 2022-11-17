@@ -10,6 +10,10 @@
     margin: 10px;
     flex-basis: calc(100% / 3 - 20px);
 }
+.benefits .card{
+    margin: 10px;
+    flex-basis: calc(100% / 2 - 20px);
+}
 
 .info .card:first-child{
     flex-basis: calc(100% / 3 * 2 - 20px);
@@ -64,6 +68,16 @@
         margin: auto;
     }
 
+     ul{
+        display:flex;
+    }
+
+    .nav-link i{
+        display: none;
+    }
+
+
+
     .main-pic{
         width: 300px;
     }
@@ -74,6 +88,10 @@
 
 
 
+    .benefits .card{
+        margin: 10px;
+        flex-basis: calc(100% / 3 - 20px);
+    }
 
     .pres-body{
         flex-direction: row;
